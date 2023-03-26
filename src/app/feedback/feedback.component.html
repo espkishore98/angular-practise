@@ -1,0 +1,13 @@
+<app-headers></app-headers>
+<form>
+    First Name: <input type="text" name="firstName" [(ngModel)]="loginCredentials.firstName">
+    <br><br>
+    Last Name: <input type="text"  name="lastName" [(ngModel)]="loginCredentials.lastName">
+    <br><br>
+    emailId: <input type="text"  name="emailId" [(ngModel)]="loginCredentials.emailId">
+    <br><br>
+    Comments:<input type="text"  name="comments" [(ngModel)]="loginCredentials.comments">
+    <br><br>
+    <button (click) ="submit()">submit</button>
+    
+</form>

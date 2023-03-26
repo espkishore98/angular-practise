@@ -1,0 +1,11 @@
+<app-headers></app-headers>
+<form     #details="ngForm">
+    City Name: <input type="text" name="cityName" ngModel>
+    Country: <input type="text" name="country" ngModel>
+    address: <input type="text" name="address" ngModel>
+    mobile: <input type="text" name="mobile" ngModel>
+    <br><br>
+    <button (click) ="submit(details.value)">submit</button>
+
+    
+</form>
