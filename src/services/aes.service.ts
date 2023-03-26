@@ -21,7 +21,7 @@ export class AesService implements OnInit{
     this._keySize = 256;
     this._ivSize = 128;
     this._iterationCount = 65536;
-    this.passphrase = "Tk93sO0GqQTWU1Vp5xyPtDvk5YT/cpej/sxi3ZlFWRa/XUmk2DrIeA+rO2/Wp3xZYSHEFQAiFxuPXa4md8PWEQ==";
+    this.passphrase = "Tk93sO0GqQTWU1Vp5xyPtDvk5YT/cpej/sxi3ZlFWRa/XUmk2D********************************************";
 
   }
   ngOnInit() {
@@ -31,7 +31,7 @@ export class AesService implements OnInit{
     this._keySize = 256;
     this._ivSize = 128;
     this._iterationCount = 65536;
-    this.passphrase = "Tk93sO0GqQTWU1Vp5xyPtDvk5YT/cpej/sxi3ZlFWRa/XUmk2DrIeA+rO2/Wp3xZYSHEFQAiFxuPXa4md8PWEQ==";
+    this.passphrase = "Tk93sO0GqQTWU1Vp5xyPtDvk5YT/cpej/sxi3ZlFWRa/XUmk2DrIeA+rO2/Wp3xZYSH***********************";
 }
 
 generateKey(salt:any, passPhrase:any) {
